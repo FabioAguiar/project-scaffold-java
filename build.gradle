@@ -1,0 +1,24 @@
+plugins {
+    id 'java'
+}
+
+group = 'com.example'
+version = '0.1.0'
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(21)
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // Add project dependencies here
+}
+
+test {
+    useJUnitPlatform()
+}

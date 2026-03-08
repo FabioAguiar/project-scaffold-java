@@ -1,0 +1,29 @@
+# Build
+target/
+build/
+out/
+
+# IDE
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+.vscode/
+
+# Java
+*.class
+hs_err_pid*
+replay_pid*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Environment
+.env
+.env.*
